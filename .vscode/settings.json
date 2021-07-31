@@ -1,0 +1,10 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/62df9184-9b68-4cb1-a93b-0de30ae66d18/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/easy-shop-test",
+    "appService.deploySubpath": ".",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune (functions)"
+}
